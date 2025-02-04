@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/CSS/form.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica Lovatini</title>
@@ -10,7 +11,8 @@
 
 <body>
     <header>
-        <img src="../assets/imagens/logo.png" alt="">
+        <img src="../assets/imagens/logo.png" alt="logotipo" id="logo">
+        <h1>Contatos</h1>
         <nav>
             <a href="../index.html">Home</a>
             <a href="../exames.html">Exames</a>
@@ -19,10 +21,31 @@
     </header>
 
     <main>
-        <section>
-            <h1>Contatos</h1>
-            <p></p>
-        </section>
+        
+            
+            
+            <div class="formulario">
+
+                <div class="form_box">
+
+                    <h2 class="title"> Marque seu Exame</h2>
+
+                    <form action="" method="get">
+
+                        <input type="text" name="name" placeholder="Seu nome">
+                        <input type="email" name="email" placeholder="Seu E-mail">                 
+                        <input type="text" name="subject" placeholder="Nome do Exame">
+
+                        <input type="file" name="" id="">
+
+                        <textarea name="message" placeholder="Infome exame a ser marcado"></textarea>
+
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+
+            </div>
+                    
     </main>
 </body>
 </html>
